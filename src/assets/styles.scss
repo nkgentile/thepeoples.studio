@@ -1,0 +1,57 @@
+$enable-responsive-font-sizes: true;
+
+$primary: #b4ddc0;
+
+$emphasized-link-hover-darken-percentage: 0%;
+
+$transition-move: transform 0.15s linear;
+
+@import '~bootstrap/scss/bootstrap';
+
+$zindex-menu: $zindex-tooltip + 10;
+$zindex-toolbar: $zindex-tooltip + 10;
+
+.fill-white {
+  fill: $white;
+}
+
+.fill-primary {
+  fill: $primary;
+}
+
+.user-select-none {
+  user-select: none;
+}
+
+.transition-fill {
+  @include transition(fill 0.15s linear);
+}
+
+.transition-color {
+  @include transition(color 0.15s linear);
+}
+
+.jumbotron-img {
+  background-size: cover;
+  background-position: center;
+}
+
+@each $color, $value in $theme-colors {
+  .bg-#{$color}-semiopaque {
+    background-color: rgba($value, 0.75) !important;
+  }
+}
+
+.appear-left-enter {
+  $translation: 100vw;
+  $rotation: random(360) * 1deg;
+
+  transform: translateX($translation * -1) rotation($rotation);
+
+  &-active {
+    @include transition(all 1s linear 250ms);
+  }
+  &-to {
+    transform: translateX(0);
+  }
+}

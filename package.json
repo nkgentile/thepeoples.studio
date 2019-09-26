@@ -7,9 +7,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "core-js": "^2.6.5",
+    "d3-color": "^1.4.0",
+    "d3-random": "^2.0.0",
     "ramda": "^0.26.1",
     "register-service-worker": "^1.6.2",
+    "three": "^0.108.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
@@ -18,8 +22,11 @@
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-pwa": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "responsive-loader": "^1.2.0",
     "sass": "^1.18.0",
     "sass-loader": "^7.1.0",
+    "sharp": "^0.23.0",
     "vue-template-compiler": "^2.6.10"
   }
 }

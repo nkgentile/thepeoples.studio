@@ -1,0 +1,20 @@
+[
+  {
+    "id": "3f5a234a-f37a-4f7d-8f7a-dcda705f043b",
+    "title": "#001",
+    "thumbnail": "jpg/001.jpg",
+    "model": "/obj/001.obj"
+  },
+  {
+    "id": "5fa2bd7f-c4c9-4769-a3e6-be6c750e2c02",
+    "title": "#002",
+    "thumbnail": "jpg/002.jpg",
+    "model": "/obj/002.obj"
+  },
+  {
+    "id": "1fac88b3-d4be-4f70-8142-e692c13be134",
+    "title": "#003",
+    "thumbnail": "jpg/003.jpg",
+    "model": "/obj/003.obj"
+  }
+]
